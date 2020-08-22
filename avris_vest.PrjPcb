@@ -7,7 +7,7 @@ ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
-TimestampOutput=0
+TimestampOutput=1
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
@@ -44,7 +44,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -61,7 +61,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -78,7 +78,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -121,6 +121,41 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document6]
+DocumentPath=Vest.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PTMQYHTK
+
+[ProjectVariant1]
+UniqueID=2AF977DE-D2FF-4911-A890-F32A7827100A
+Description=Internal RLD
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=IC2|UniqueId=\TEUKIYRG\YWJKTESF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=E2425883-96A0-47A2-ABC3-23CB0A910F5E
+Description=External RLD
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R2|UniqueId=\TEUKIYRG\FQQCXYBQ|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
